@@ -1,0 +1,9 @@
+.btn-create-new-project-in-new-expense {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+  .btn-create-new-project-in-new-expense {
+    margin-left: -12px;
+  }
+}

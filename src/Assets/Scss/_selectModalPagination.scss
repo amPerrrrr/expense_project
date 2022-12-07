@@ -1,0 +1,36 @@
+.div-disabled-select-modal-pagination {
+  height: 45px;
+  border-radius: 7px;
+  border: 1px solid $primary-color-txt-header-input;
+  background-color: #f1f1f1;
+  cursor: not-allowed;
+}
+
+.div-select-modal-pagination {
+  height: 45px;
+  border-radius: 7px;
+  border: 1px solid $primary-color;
+}
+
+.txt-in-select-modal-pagination {
+  color: $primary-color-txt-header-input;
+  font-weight: $font-weight-normal;
+  font-size: 18px;
+  margin-top: 6px;
+  margin-left: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 70%;
+  overflow: hidden;
+}
+
+.error-div-select-modal-pagination {
+  border: 1px solid $color-red;
+  box-shadow: 0 0 0 1px $color-red-palette;
+}
+
+.txt-select-organization-columns {
+    font-size: 15px;
+    color: $primary-color;
+    font-weight: $font-weight-bold;
+}

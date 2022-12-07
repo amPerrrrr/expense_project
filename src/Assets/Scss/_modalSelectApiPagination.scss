@@ -1,0 +1,29 @@
+.div-no-data-select-comp {
+    display: block;
+    border: 1px solid $primary-color;
+    border-radius: 7px;
+    height: 45px;
+}
+
+.error-div-no-data-select-comp {
+    border: 1px solid $color-red !important;
+}
+
+.icon-modal-select-api-pagination {
+    color: $secondary-text-color;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.txt-placeholder-in-modal-select-api-pagination {
+    font-size: 15px;
+    font-weight: $font-weight-bold;
+    color: $primary-color-text;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.disabled-div-no-data-select-comp {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}

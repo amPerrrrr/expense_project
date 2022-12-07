@@ -1,0 +1,25 @@
+.ant-input-number {
+  border-radius: 7px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.ant-input-number-input {
+    font-weight: $font-weight-bold;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.ant-input-number:hover {
+  border-color: $primary-color;
+  border-radius: 7px;
+}
+
+.ant-input-number:focus,
+.ant-input-number-focused {
+  border-color: $primary-color;
+  box-shadow: 0 0 0 2px $color-box-shadow;
+}
+
+.ant-input-number-handler-wrap {
+  display: none;
+}

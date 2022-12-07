@@ -1,0 +1,59 @@
+.txt-header-input {
+  color: #4B4B4B;
+  font-weight: $font-weight-bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.div-border-input {
+  border: 1px solid $primary-color;
+  border-radius: 7px;
+  height: 45px;
+  font-weight: $font-weight-bold;
+}
+
+.text-error-default-under-input {
+  color: $color-red;
+  font-weight: $font-weight-normal;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: $primary-color;
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  box-shadow: 0 0 0 2px $color-box-shadow;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  font-weight: $font-weight-normal;
+  font-size: 18px;
+}
+
+.error-txt-field-input {
+  border: 1px solid $color-red !important;
+  box-shadow: 0 0 0 1px $color-red-palette !important;
+}
+
+.error-txt-field-input:focus,
+.error-txt-field-input:active,
+.error-txt-field-input:visited,
+.error-txt-field-input:hover,
+.error-txt-field-input::after,
+.error-txt-field-input:hover::after {
+  border: 1px solid $color-red !important;
+  box-shadow: 0 0 0 2px $color-red-palette !important;
+}
+
+.ant-input:hover {
+  border-color: $primary-color;
+}
+
+.ant-input:focus, .ant-input-focused {
+  border-color: $primary-color;
+    box-shadow: 0 0 0 2px $color-box-shadow;
+}

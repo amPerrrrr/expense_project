@@ -1,0 +1,30 @@
+.dot-card-color-comp {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.txt-header-title-text-has-dot {
+  color: #a0a0a0;
+  font-weight: $font-weight-bold;
+  font-size: 15px;
+}
+
+.txt-value-title-text-has-dot {
+  font-weight: $font-weight-bold;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 527px) {
+  .dot-card-color-comp{
+    display: none;
+  }
+
+  .txt-header-title-text-has-dot {
+    margin-left: 20px;
+  }
+}

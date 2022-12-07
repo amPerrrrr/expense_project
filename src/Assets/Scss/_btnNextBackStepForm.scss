@@ -1,0 +1,15 @@
+.width-btn-responsive {
+    width: 200px !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .width-btn-responsive {
+        width: 150px !important;
+    }
+  }
+  
+@media only screen and (max-width: 350px) {
+    .width-btn-responsive {
+        width: 100% !important;
+    }
+  }

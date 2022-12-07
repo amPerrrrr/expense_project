@@ -1,0 +1,34 @@
+
+.custom-save-button-confirm-modal-select {
+    border-color: $primary-color !important;
+    background: $primary-color !important;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.custom-cancel-button-confirm-modal-select {
+    border-color: #d9d9d9 !important;
+    background: $color-white !important;
+    color: $primary-color !important;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.custom-save-button-confirm-modal-select:hover , 
+.custom-save-button-confirm-modal-select:active , 
+.custom-save-button-confirm-modal-select:after   {
+    box-shadow: 0 0 0 2px $color-box-shadow !important;
+    border-color: $primary-color !important;
+    background: $primary-color !important;
+    color: #fff;
+}
+
+.custom-cancel-button-confirm-modal-select:hover , 
+.custom-cancel-button-confirm-modal-select:active , 
+.custom-cancel-button-confirm-modal-select:after  {
+    border-color: #d9d9d9 !important;
+    background: $color-white !important;
+    color: $primary-color !important;
+    box-shadow: 0 0 0 2px $color-box-shadow !important;
+}

@@ -1,0 +1,53 @@
+.card-display-notification {
+  border: 2px solid $primary-color-border;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.txt-name-in-card-notification {
+  font-weight: $font-weight-bold;
+  font-size: 18px;
+  color: $primary-text-color;
+  margin: 0px auto 0px 10px;
+}
+
+.txt-status-in-card-notification {
+  font-weight: $font-weight-bold;
+  font-size: 16px;
+  color: #797979;
+  margin: 0px auto 0px 10px;
+}
+
+.txt-datetime-in-card-notification {
+  font-weight: $font-weight-normal;
+  font-size: 12px;
+  color: $secondary-text-color;
+  margin: 0px auto 0px 10px;
+}
+
+.txt-detail-in-card-notification {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    color: #BCBCBC;
+    margin: 0px auto 0px 10px;
+}
+
+.txt-status-primary-color-in-card-notification {
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    color: $primary-color;
+    margin: 0px auto 0px 10px;
+}
+
+.img-status-icon-notification {
+  float: right;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.img-status-icon-notification-sm-display {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-left: 10px;
+}

@@ -1,0 +1,16 @@
+.btn-float-right-title-page {
+  float: right;
+  clear: both;
+  border-radius: 7px !important;
+}
+@media only screen and (max-width: 767px) {
+  .hide-content-when-display-is-mobile {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hide-content-when-display-is-lg {
+    display: none !important;
+  }
+}

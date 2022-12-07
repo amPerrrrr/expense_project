@@ -1,0 +1,21 @@
+.txt-header-step-icon-flag-date {
+  font-size: 20px;
+  font-weight: $font-weight-bold;
+  color: $secondary-text-color;
+  margin-bottom: 0px;
+}
+
+.txt-date-step-icon-flag-date {
+  font-size: 15px;
+  font-weight: $font-weight-bold;
+}
+
+.img-flag-step-icon-flag-date {
+  height: 50px;
+}
+
+@media only screen and (max-width: 575px) {
+  .img-flag-step-icon-flag-date {
+    display: none;
+  }
+}

@@ -1,0 +1,55 @@
+@mixin defaultColorText() {
+  color: $primary-color !important;
+}
+@mixin defaultSizeFont() {
+  font-size: 20px;
+  font-weight: $font-weight-bold;
+}
+
+@mixin defaultBgColor() {
+  background-color: $primary-color !important;
+}
+
+.ant-steps-item-title {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  @include defaultColorText;
+  @include defaultSizeFont();
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  @include defaultColorText;
+  @include defaultSizeFont();
+}
+
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  @include defaultColorText;
+}
+
+.ant-steps-item-custom.ant-steps-item-process
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  @include defaultColorText;
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  @include defaultBgColor();
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  @include defaultBgColor();
+}

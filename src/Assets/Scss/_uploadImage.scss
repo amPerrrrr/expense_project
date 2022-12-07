@@ -1,0 +1,55 @@
+.div-border-upload-image {
+  height: 45px;
+  border-radius: 7px;
+  border: 1px solid $primary-color;
+  position: relative;
+}
+
+.div-border-upload-image:hover {
+  box-shadow: 0 0 0 2px $color-box-shadow;
+}
+
+.error-border-upload-image {
+  border: 1px solid $color-red;
+}
+
+.error-border-upload-image:hover {
+  box-shadow: 0 0 0 2px $color-red-palette;
+}
+
+.txt-placeholder-upload-image {
+  font-size: 15px;
+  font-weight: $font-weight-normal;
+  color: rgba(0, 0, 0, 0.493);
+  margin: 8px auto auto 10px;
+}
+
+.icon-upload-upload-image {
+  float: right;
+  color: rgba(0, 0, 0, 0.212);
+  margin: 8px 10px auto;
+}
+
+.div-remove-icon-upload-image {
+  position: absolute;
+  background-color: $color-white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: -10px;
+  left: -10px;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.icon-clear-upload-upload-image {
+  color: $color-red;
+}
+
+.div-remove-multiple-icon-upload-image {
+  position: absolute;
+  background-color: $color-white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: 0px;
+  left: 0px;
+  border-radius: 7px;
+  padding: 5px;
+}

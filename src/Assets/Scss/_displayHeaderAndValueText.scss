@@ -1,0 +1,33 @@
+.txt-header-display-header-and-value-text {
+font-weight: $font-weight-bold;
+color: $primary-text-color;
+font-size: 18px;
+}
+
+.txt-value-display-header-and-value-text {
+    font-weight: $font-weight-bold;
+    color: $primary-text-color;
+    font-size: 18px;
+    float: right;
+}
+
+.txt-value-under-header-display-header-and-value-text {
+    font-weight: $font-weight-bold;
+    color: $primary-text-color;
+    font-size: 18px;
+}
+
+.span-part-sm {
+    display: none; 
+}
+
+@media only screen and (max-width: 767px) {
+    .txt-value-display-header-and-value-text {
+        float: left;
+    }
+
+    .span-part-sm {
+        display: inline;
+        margin-right: 5px;
+    }
+}

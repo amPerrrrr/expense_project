@@ -1,0 +1,46 @@
+.txt-branch-display {
+  font-weight: $font-weight-bold;
+  font-size: 20px;
+  color: $color-white;
+  margin: 15px auto auto 10px;
+}
+
+.div-border-card-select-branch {
+  border: 2px solid $primary-color-border;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-avatar-select-branch-components {
+  display: block;
+  margin: 5px auto;
+  }
+}
+
+
+.logo-avatar-select-branch-components {
+  margin-top: 5px;
+  border: 1px solid $secondary-text-color;
+}
+
+.txt-name-in-select-branch {
+  font-weight: $font-weight-bold;
+  font-size: 18px;
+  color: $primary-text-color;
+  margin-bottom: 0px;
+}
+
+.txt-address-in-select-branch {
+    font-weight: $font-weight-bold;
+    font-size: 13px;
+    color: #c0bfbf;
+}
+
+.txt-sub-detail-in-select-branch {
+    font-weight: $font-weight-bold;
+    font-size: 18px;
+    color: $primary-text-color;
+    margin-bottom: 0px;
+}

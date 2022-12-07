@@ -1,0 +1,285 @@
+.txt-name-form-edit-expense {
+    text-align: center;
+    font-size: 20px;
+    font-weight: $font-weight-bold;
+}
+
+
+.div-form-border-project-for-edit-expense {
+    display: block;
+    margin: auto;
+    border: 1px solid #e8e8e8;
+    border-radius: 7px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin-top: 30px;
+    width: 800px;
+    max-width: 100%;
+  
+}
+
+
+.txt-sub-form-edit-expense{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -16px
+}
+
+.txt-status-form-edit-expense{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #339B1A
+}
+
+.txt-date-status-form-edit-expense{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -16px;
+}
+
+.txt-proj-name-form-edit-expense{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+// ----------------------------------------------------
+
+
+.div-border{
+    border-top:1px solid #BCBCBC ;
+    padding: 10px;
+
+}
+
+.div-submittier{
+    display:flex;
+    margin-top: -15px;
+    margin-left: -15px;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #BCBCBC;
+}
+
+.pic-submittier{
+    width: 45px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.name-submittier{
+    margin-left:-15px;
+    color:#A0A0A0;
+    font-size: 18px;
+}
+
+.date-space{
+    justify-content: space-between;
+    display:flex;
+}
+
+.date-submittier{
+    margin-right: 55px;
+}
+
+// --------------------------------------------------
+
+.row-start{
+    margin-left: 0px;
+}
+.row-end{
+    margin-right: -30px;
+}
+.div-start{
+    margin-left: 20px;
+}
+
+.div-end{
+    margin-left: 20px;
+}
+
+.date-start-font{
+    font-size:16px;
+    display: flex;
+    justify-content: left;
+}
+
+.date-end-font{
+    font-size:16px;
+    display: flex;
+    justify-content: left;
+}
+
+.start-date{
+    color: #6AC46D;
+    margin-top: -10px;
+}
+
+.end-date{
+    color: #E09B9B;
+    margin-top: -10px ;
+    margin-right: -10px;
+}
+
+// ------------------------------------------------------------
+
+.budget-font{
+    text-align: center;
+    font-size: 18px;
+    color:#BCBCBC;
+}
+
+.budget-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+//--------------------------------------------------------------
+
+.div-border-signer{
+    border-right:1px solid #BCBCBC ;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.div-submittier-siger{
+    text-align: center;
+}
+
+.div-approver-siger{
+    text-align: center;
+}
+
+.approved-siger{
+    text-align: center;
+}
+
+.signer-submit-created{
+    font-size: 12px;
+}
+
+.signer-submit-date{
+    font-size: 12px;
+}
+
+.name-submittier-signer{
+    font-size: 20px;
+    font-weight: $font-weight-bold;
+}
+
+.div-signer-submit{
+    margin-top: -10px;
+    display:flex;
+    justify-content: center;
+}
+.div-signer-approve-status{
+    display: flex;
+    justify-content: center;
+}
+
+.div-signer-approved{
+    display: flex;
+    justify-content: center;
+}
+
+.col-approve-name{
+    display:flex;
+    justify-content: end;
+}
+.col-approve-date{
+    display:flex;
+    justify-content: start;
+}
+
+.signer-approved-created{
+    font-size: 12px;
+}
+
+.signer-approved-date{
+    font-size: 12px;
+}
+
+.approver-siger {
+    text-align: center;
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+    color:#BCBCBC
+}
+
+// .col-proved-icon{
+//     display:flex;
+//     justify-content: end;
+// }
+// .col-proved-txt{
+//     display: flex;
+//     justify-content: start;
+// }
+
+@media only screen and (max-width: 993px) {
+    .change-position-when993px{
+        display:block;
+        text-align: center;
+    }
+    .div-submittier{
+        display:block;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .date-submittier{
+        margin: 0px;
+    }
+    .row-start{
+        // display: block;
+        text-align: center;
+    }
+    .row-end{
+        // display: block;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .div-start{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        
+    }
+    .div-end{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .start-date{
+        margin: 0px;
+    }
+    .end-date{
+        margin: 0px;
+    }
+    .date-start-font{
+        font-size: 14px;
+    }
+    .date-end-font{
+        font-size: 14px;
+    }
+   
+}
+
+@media only screen and (max-width: 575px){
+    .div-border-signer{
+        border-right: 0px;
+        border-bottom:1px solid #BCBCBC ;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .signer-approved-created{
+        font-size: 9px;
+    }
+    
+    .signer-approved-date{
+        font-size: 9px;
+    }
+}

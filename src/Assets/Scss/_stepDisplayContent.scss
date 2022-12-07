@@ -1,0 +1,100 @@
+.div-border-step-display-content {
+  justify-content: center;
+  border-radius: 7px;
+  background-color: $secondary-color;
+  height: 120px;
+}
+
+.txt-title-div-border-step-display-content {
+  text-align: center;
+  font-size: 20px;
+  font-weight: $font-weight-bold;
+}
+
+.tab-step {
+  border-radius: 7px;
+  width: 100px;
+  margin: 10px;
+  padding-top: 15px;
+  color: $primary-color-text;
+}
+
+.active-tab-step {
+  background-color: $color-white;
+  color: $primary-color;
+}
+
+.icon-in-step {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .div-border-step-display-content {
+    height: 80px;
+  }
+  .txt-title-div-border-step-display-content {
+    font-size: 15px;
+  }
+  .tab-step {
+    width: 80px;
+    margin: 5px;
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .div-step-display-content-overflow-y-auto-when-sm-display {
+    width: 100%;
+    overflow-y: auto;
+  }
+}
+
+
+[data-theme='compact'] .site-navigation-steps-custom,
+.site-navigation-steps-custom {
+  margin-bottom: 20px;
+  box-shadow: 0px -1px 0 0 #e8e8e8 inset;
+}
+
+.ant-steps-navigation .ant-steps-item::before {
+  background-color : $primary-color;
+}
+
+.site-navigation-steps-custom > .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+  display: none;
+}
+
+.site-navigation-steps-custom > .ant-steps-item-finish .ant-steps-item-icon {
+  display: none;
+}
+
+.site-navigation-steps-custom > .ant-steps-item-wait .ant-steps-item-icon {
+  display: none;
+}
+
+.site-navigation-steps-custom > .ant-steps-navigation .ant-steps-item::after {
+  display: none;
+}
+
+.site-navigation-steps-custom > .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  font-size: 15px;
+}
+
+.site-navigation-steps-custom > .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  font-size: 15px;
+}
+
+.site-navigation-steps-custom > .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 15px;
+  font-weight: $font-weight-normal;
+}
+
+
+.site-navigation-steps-custom   > .ant-steps-item::after {
+display: none !important;
+}
+
+.site-navigation-steps-custom > .ant-steps-item::after {
+  display: none !important;
+}

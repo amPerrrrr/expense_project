@@ -1,0 +1,43 @@
+.ant-table-thead > tr > th {
+    background : $secondary-color !important; 
+    font-weight: $font-weight-bold;
+    color: $primary-color;
+    font-size: 16px;
+}
+
+.ant-table-container table > thead > tr:first-child th:first-child {
+    border-top-left-radius: 15px !important; 
+}
+
+.ant-table-container table > thead > tr:first-child th:last-child {
+    border-top-right-radius: 15px !important; 
+}
+
+.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    background-color : $primary-color-text;
+    width: 1px;
+    height: 2em;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td, .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+    background : $color-shadow-table-hover;
+}
+
+.txt-in-table {
+    font-weight: $font-weight-bold;
+    font-size: 15px;
+    color: $primary-text-color;
+}
+
+.div-table {
+    overflow: auto;
+    margin-top: 30px;
+    padding-right: 10px;
+    height: 500px;
+  }
+  
+  @media only screen and (max-height: 560px) {
+    .div-table {
+      max-height: 380px;
+    }
+  }

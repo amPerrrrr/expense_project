@@ -1,0 +1,65 @@
+.btn-primary-bg-white {
+  border: 1px solid $primary-color !important;
+  color: $primary-color !important;
+  border-radius: 7px;
+}
+
+.txt-in-btn-primary {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-primary-bg-color-primary {
+  color: $color-white !important;
+  border-radius: 7px;
+  border: 1px solid $primary-color !important;
+  background-color: $primary-color !important;
+}
+
+.btn-default-app {
+  width: 100%;
+  border: 1px solid $primary-color;
+  font-weight: $font-weight-bold;
+  border-radius: 7px;
+  color: $primary-color;
+  background-color: $secondary-color;
+}
+
+.btn-default-app:hover {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  box-shadow: 0 0 0 2px #b87fdb3f;
+  background-color: $secondary-color;
+}
+
+.btn-default-app:focus {
+  color: $primary-color;
+  border-color: $primary-color;
+  background-color: $secondary-color;
+}
+
+.btn-default-app:visited {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  background-color: $secondary-color;
+}
+
+.btn-bg-primary-app,
+.btn-bg-primary-app:hover,
+.btn-bg-primary-app:hover::after,
+.btn-bg-primary-app:focus,
+.btn-bg-primary-app:hover:hover::after {
+  width: 100%;
+  border: 1px solid $color-box-shadow;
+  font-weight: $font-weight-bold;
+  border-radius: 7px;
+  color: $primary-color;
+  background-color: $color-box-shadow;
+}
+
+.btn-bg-primary-app:active {
+  color: #FFFF;
+  border: 1px solid $color-box-shadow;
+  background-color: $primary-color;
+  box-shadow: 0 0 0 2px $color-box-shadow;
+}

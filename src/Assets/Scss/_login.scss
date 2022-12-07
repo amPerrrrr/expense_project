@@ -1,0 +1,228 @@
+// .login-title-side{
+//     margin: 2rem;
+//     margin-top: 100px;
+// }
+
+// .pic-setting{
+//     text-align: center;
+// }
+
+// .word-setting{
+//     max-width: 100%;
+//     width: 870px;
+// }
+// .login-title-pic{
+//     width: 450px;
+//     max-width: 100%;
+// }
+
+// .login-title-font{
+//     font-size: 55px;
+//     color: #B4B4B4;
+//     line-height: 75px;
+//     margin-bottom: 10px;
+// }
+
+// .login-subtitle-font{
+//     font-size: 26px;
+//     color: #B4B4B4;
+// }
+ 
+// //////////////////////////
+
+// .login-side{
+//     width: 500px;
+//     margin-left: 2rem;
+//     grid-template-columns: auto auto auto auto
+// }
+
+// .login-expense-icon{
+//     width: 120px;
+//     margin-left: 180px;
+// }
+
+// .login-expense-set{
+//     margin-top: 100px;
+// }
+ 
+// .login-expense-font{
+//     font-size: 35px;
+//     color: $primary-color;
+//     margin-left: 45px;
+// }
+
+// .login-forget-pw{
+//     text-align: right;
+//     text-decoration: underline;
+//     font-size: 20px
+// }
+
+
+
+// @media only screen and (max-width: 1280px){
+//     .login-title-side{
+//         display: none;
+//     }
+//     .login-side{
+//         margin: auto;
+//     }
+// }
+// @media only screen and (max-width: 1024px){
+//     .login-title-side{
+//         display: none;
+//     }
+//     .login-side{
+//         margin: auto;
+//     }
+// }
+
+// @media only screen and (max-width: 600px){
+//     .login-title-side{
+//         display: none;
+//     }
+//     .login-side{
+//         margin: auto;
+//         width: 350px;
+//     }
+//     .login-expense-icon{
+//         width: 84px;
+//         margin-left: 126px;
+//     }
+    
+//     .login-expense-set{
+//         margin-top:100px;
+//     }
+     
+//     .login-expense-font{
+//         font-size: 24px;
+//         color: $primary-color;
+//         margin-left: 31px;
+//     }
+    
+//     .login-forget-pw{
+//         text-align: right;
+//         text-decoration: underline;
+//         font-size: 14px
+//     }
+// }
+
+
+// @media only screen and (max-width: 320px){
+//     .login-title-side{
+//         display: none;
+//     }
+//     .login-side{
+//         margin: auto;
+//         width: 210px;
+//     }
+//     .login-expense-icon{
+//         width: 50px;
+//         margin-left: 77px;
+//     }
+    
+//     .login-expense-set{
+//         margin-top: 30px;
+//     }
+     
+//     .login-expense-font{
+//         font-size: 14px;
+//         color: $primary-color;
+//         margin-left: 25px;
+//     }
+    
+//     .login-forget-pw{
+//         text-align: right;
+//         text-decoration: underline;
+//         font-size: 14px
+//     }
+// }
+
+@media only screen and (max-width: 767px) {
+    .div-img-title-login {
+      display: none;
+    }
+  }
+  
+  .txt-under-icon-logo {
+    text-align: center;
+    color: $primary-color;
+    font-size: 30px;
+    font-weight: $font-weight-bold;
+  }
+  
+  .icon-login-expense {
+    display: block;
+    width: 80px;
+    margin: 150px auto 0px auto;
+  }
+  
+  .img-title-login {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    margin: 150px auto 50px auto;
+  }
+  
+  .txt-forget-password {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  
+  .txt-title-login {
+    color: $primary-color-text;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .txt-sub-title-login {
+    color: $primary-color-text;
+    font-size: 20px;
+  }  
+  
+  @media only screen and (max-height: 800px) {
+    .icon-login-expense {
+      display: block;
+      margin: 80px auto 0px auto;
+    }
+  }
+  
+  @media only screen and (max-height: 650px) {
+    .icon-login-expense {
+      display: block;
+      margin: 40px auto 0px auto;
+      height: 50px;
+    }
+  }
+  
+  @media only screen and (max-height: 500px) {
+    .txt-under-icon-logo {
+      font-size: 20px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 1446px) {
+    .txt-title-login {
+      font-size: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 1143px) {
+    .txt-title-login {
+      font-size: 25px;
+    }
+
+    .txt-sub-title-login {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .txt-title-login {
+      font-size: 20px;
+    }
+
+    .txt-sub-title-login {
+      font-size: 12px;
+    }
+  }

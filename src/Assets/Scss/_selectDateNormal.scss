@@ -1,0 +1,18 @@
+.error-date-field-input {
+    border: 1px solid $color-red !important;
+    box-shadow: 0 0 0 1px $color-red-palette !important;
+  }
+  
+  .error-date-field-input:focus,
+  .error-date-field-input:active,
+  .error-date-field-input:visited,
+  .error-date-field-input:hover,
+  .error-date-field-input::after,
+  .error-date-field-input:hover::after {
+    border: 1px solid $color-red !important;
+    box-shadow: 0 0 0 2px $color-red-palette !important;
+  }
+  
+  .ant-picker-input > input {
+    font-weight: $font-weight-bold;
+  }

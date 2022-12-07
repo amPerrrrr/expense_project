@@ -1,0 +1,36 @@
+.txt-title-page {
+  font-weight: $font-weight-bold;
+  color: $primary-color;
+  font-size: 25px;
+  margin: 0px auto 5px 10px;
+}
+
+.txt-description-page {
+  font-weight: $font-weight-normal;
+  color: $primary-text-color;
+  font-size: 20px;
+  margin: -12px auto 5px 10px;
+
+  line-height: 1.5em;
+  height: 3em;
+  overflow: hidden;
+}
+
+.img-title-page {
+  display: block;
+}
+
+@media only screen and (max-width: 575px) {
+  .img-title-page {
+    display: none;
+  }
+  .txt-title-page {
+    color: $primary-color;
+    font-size: 25px;
+    text-align: center;
+  }
+  .txt-description-page {
+    text-align: center;
+    font-size: 20px;
+  }
+}

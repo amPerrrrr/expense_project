@@ -1,0 +1,36 @@
+.txt-name-form-new-expense {
+    text-align: center;
+    font-size: 20px;
+    font-weight: $font-weight-bold;
+}
+
+.txt-detail-sub-title-category {
+    font-size: 20px;
+    color: $primary-color-text;
+    font-weight: $font-weight-normal;
+}
+
+.txt-date-sub-title-category {
+    text-align: left;
+    margin-left: 10px;
+    font-weight: $font-weight-bold;
+    color: $primary-color-text;
+}
+
+.display-value-background-color-overview-request {
+    background-color: $secondary-color;
+    padding-top: 10px;
+}
+
+.txt-sub-form-new-expense{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -16px
+}
+
+.txt-status-form-new-expense{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+    color: #339B1A
+}

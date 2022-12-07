@@ -1,0 +1,21 @@
+.ant-pagination-item-active {
+    border-color : $primary-color !important;
+    color: $primary-color !important;
+}
+
+.ant-pagination-item:hover {
+    border-color : $primary-color !important;
+}
+
+.ant-pagination-prev:hover .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link {
+    border-color : $primary-color !important;
+    color: $primary-color !important;
+}
+
+.ant-pagination-next .ant-pagination-item-link  span svg {
+    margin-bottom: 5px;
+}
+
+.ant-pagination-prev .ant-pagination-item-link > span svg {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,39 @@
+@mixin defaultTxtCardDepartmentSmall() {
+  font-family: $primary-font-family;
+  font-weight: $font-weight-bold;
+  margin-bottom: 0px;
+}
+
+.txt-name-department-card-department-small {
+  @include defaultTxtCardDepartmentSmall();
+  text-align: center;
+  color: $primary-color;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.txt-branch-name-card-department-small {
+  @include defaultTxtCardDepartmentSmall();
+  color: $primary-text-color;
+  text-align: center;
+  font-size: 15px;
+}
+
+.txt-company-name-card-department-small {
+  @include defaultTxtCardDepartmentSmall();
+  color: $secondary-text-color;
+  text-align: center;
+  font-size: 15px;
+}
+
+.txt-user-total-card-department-small {
+  @include defaultTxtCardDepartmentSmall();
+  text-align: center;
+  font-size: 18px;
+  color: $primary-color;
+}
+
+.span-txt-user-card-department-small {
+  color: $secondary-text-color;
+  margin-left: 10px;
+}

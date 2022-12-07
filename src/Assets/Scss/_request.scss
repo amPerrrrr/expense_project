@@ -1,0 +1,100 @@
+.div-button{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.pending-button{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: $secondary-color;
+    border: none;   
+}
+
+.pending-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.done-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: $secondary-color;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.done-icon{
+    margin-right: 10px;
+}
+
+.div-search{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.search-box{
+    width: 500px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.date-box1{
+    width: 500px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.date-box2{
+    width: 500px;
+    border-radius: 8px;
+    margin-right: 10px;    
+    margin-bottom: 10px;
+}
+
+.currency-box{
+    width: 500px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary){
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.ant-input-group > .ant-input:first-child, .ant-input-group-addon:first-child{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td{
+    text-align: center;
+}
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary){
+    color: $primary-color;
+}
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary){
+    border-color: $primary-color;
+}
+
+.ant-input-group-addon .ant-select.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    background-color: white;
+}
+
+.ant-picker{
+    border : 1px solid $primary-color;
+}
+
+.ant-input{
+    border:1px solid $primary-color
+}

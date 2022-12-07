@@ -1,0 +1,89 @@
+.txt-name-detail-project {
+  font-size: 25px;
+  font-weight: $font-weight-bold;
+  margin: 20px auto 0px auto;
+  color: $primary-background-color;
+}
+
+.txt-description-detail-project {
+  font-size: 20px;
+  color: $secondary-text-color;
+  margin-top: 0px;
+  font-weight: $font-weight-bold;
+}
+
+.txt-status-project-detail-project {
+  font-size: 15px;
+  font-weight: $font-weight-bold;
+  margin-bottom: 0px;
+}
+
+.txt-date-project-detail-project {
+    font-size: 15px;
+    font-weight: $font-weight-bold;
+    margin-top: 0px;
+    color: $secondary-text-color;
+}
+
+.txt-create-date-project-detail-project {
+    font-size: 15px;
+    font-weight: $font-weight-bold;
+    margin-top: 0px;
+    color:#b4b3b3;
+}
+
+.border-detail-budget {
+  height: 400px;
+  padding-right: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.txt-total-edit-project {
+  font-weight: $font-weight-bold;
+  font-size: 20px;
+  color: $primary-color-text;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.txt-value-total-edit-project {
+  color: $primary-color;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.div-total-budget-overall-edit-project {
+  background-color: #F2F2F2;
+  border-radius: 7px;
+  width: 500px;
+}
+
+@media only screen and (max-width: 527px) {
+  .div-total-budget-overall-edit-project {
+    width: 100%;
+  }
+}
+
+.btn-refund-complete {
+  width: 150px;
+}
+
+.div-btn-refund-complete {
+  margin-top: 20px;
+  display: flex;
+  float: right;
+}
+
+@media only screen and (max-width: 331px) {
+  .div-btn-refund-complete {
+    display: block;
+    float: none;
+  }
+
+  .btn-refund-complete {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+
+}

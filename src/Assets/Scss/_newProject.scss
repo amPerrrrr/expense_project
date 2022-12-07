@@ -1,0 +1,338 @@
+.contain-box{
+    width: 600px;
+    max-width: 100%;
+}
+
+.site-navigation-steps{
+    margin-bottom: 60px;
+    color: $primary-color;
+}
+
+.steps-content{
+    width: 600px;
+    min-height: 400px;
+    margin-top: -50px;
+    background-color: #fafafa;
+    border: 1px solid $primary-color;
+    border-radius: 8px;
+    max-width: 100%;
+  }
+
+.steps-action {
+    margin-top: 24px;
+  }
+
+.btn-proj{
+    color: $primary-color;
+    background-color: #E4B9FF;
+    border-color:#d693ff;
+    border-radius: 8px ;
+    width: 250px;
+    max-width: 100%;
+}
+
+.btn-proj:hover{
+    background-color: #d693ff;
+    color: $primary-color;
+    border-color:#d693ff ;
+}
+
+.btn-proj:focus{
+    color: $primary-color;
+    background-color: #E4B9FF;
+    border-radius: 8px ;
+    border-color:#d693ff;
+    width: 250px;
+}
+
+.btn-proj:visited{
+    color: $primary-color;
+    background-color: #E4B9FF;
+    border-radius: 8px ;
+    border-color:#d693ff;
+    width: 250px;
+}
+
+.btn-proj-cancel{
+    color: $primary-color;
+    border-radius: 8px ;
+    border-color: $primary-color;
+    max-width: 100%;
+}
+
+.btn-proj-cancel:hover{
+    color: $primary-color;
+    border-radius: 8px ;
+    border-color: $primary-color ;
+    background-color: #f7e9ff;
+}
+
+.btn-proj-cancel:focus{
+    color: $primary-color;
+    border-radius: 8px ;
+    border-color: $primary-color ;
+}
+
+.btn-proj-cancel:visited{
+    color: $primary-color;
+    border-radius: 8px ;
+    border-color: $primary-color ;
+}
+
+.content-setting{
+    padding: 30px;
+}
+
+.step-setting{
+    color: $primary-color;
+}
+
+.input-setting{
+    border-radius: 8px;
+    border-color: $primary-color ;
+    width: 550px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    
+}
+
+// .input-setting:hover{
+//     border-radius: 8px;
+//     border-color: $primary-color ;
+//     width: 550px;
+//     max-width: 100%;
+//     margin-bottom: 15px;
+//     box-shadow: none;
+// }
+
+.input-setting-bussiness  {
+    width: 550px;
+    border-radius: 8px;
+    border-color:$primary-color ;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+// .input-setting-bussiness:hover  {
+//     width: 550px;
+//     border-radius: 8px;
+//     border-color:$primary-color ;
+//     max-width: 100%;
+//     margin-bottom: 15px;
+//     box-shadow: none;
+
+// }
+
+
+.my-select-container .ant-select .ant-select-selector {
+    border-radius:  8px;
+    border-color: $primary-color;
+    width: 510px;
+    // margin-bottom: 15px;
+  }
+
+
+//   .my-select-container:hover .ant-select .ant-select-selector:hover {
+//     border-radius:  8px;
+//     border-color: $primary-color;
+//     width: 510px;
+//     // margin-bottom: 15px;
+//     box-shadow: none;
+
+//   }
+
+.type-setting{
+    margin-bottom: 15px;
+}
+
+.type-btn-setting {
+    width: 150px;
+    height: 100px;
+    margin-right: 30px ;
+    text-align: center;
+
+}
+
+.type-img-setting{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.space-btw-step{
+    margin-top: 30px;
+}
+
+.all-text{ 
+    font-size: 18px;
+}
+
+.advance-extra-input{
+    width: 500px;
+    align-items: left;
+    padding: 10px;
+    border: 1px solid #E4B9FF;
+    border-radius: 8px;
+
+}
+
+.text-extra{
+    font-size:15px
+}
+
+.input-num{
+        border-radius: 8px;
+        border-color: $primary-color ;
+        width: 550px;
+        max-width: 100%;
+        margin-bottom: 15px;      
+}
+
+// .testss{
+//     border-radius:  8px !important; 
+//     border-color: $primary-color !important;
+//   }
+
+.chkbox-setting{
+    margin-bottom: 15px;
+}
+
+.ant-table-tbody > tr > td, .ant-table-thead > tr > th{
+    padding:4px;    
+}
+
+tr:nth-child{
+    background: white;
+}
+
+thead[class*="ant-table-thead"] th{
+    background-color:#FAF2FF !important;
+    color: $primary-color;
+    font-weight: bold;
+    border-color: white;
+    text-align: center;
+  }
+
+.table_btn{
+    margin:0 !important;
+}
+
+
+// .ant-input-number-group > .ant-input-number:last-child .ant-select .ant-select-selector, .ant-input-number-group-addon:last-child .ant-select .ant-select-selector{
+//     // border-radius: 8px !important; 
+//     border-color: $primary-color;
+// }
+
+.ant-input-number-group-addon .ant-select.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    border: 1px solid $primary-color;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: $primary-color;
+    border-left: 0px;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: $primary-color;
+    color: #FFFFFF;
+}
+
+
+.ant-input-number-group-addon{
+    border-radius: 8px;
+}
+
+.ant-checkbox-input{
+    opacity: 100%;
+    
+}
+
+.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-icon{
+    display: none;
+   
+}
+.ant-steps-item-wait .ant-steps-item-icon{
+    display: none;
+    
+}
+
+.ant-steps-navigation .ant-steps-item::before{
+    background-color: $primary-color;
+    
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title{
+    color: $primary-color;
+    font-weight: bold;
+    
+}
+
+.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title{
+    font-weight: bold;
+    
+}
+
+.ant-steps-item-finish .ant-steps-item-icon{
+    display: none;
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title{
+    color: $primary-color;
+    font-weight: bold;
+
+}
+
+.ant-picker-focused{
+    box-shadow: none;
+}
+
+.steps-content{
+    background-color: white;
+}
+
+.ant-radio-button-wrapper{
+    border-left-width: 1px;
+    position: inherit;
+    border-color: $primary-color;
+}
+
+.ant-radio-button-wrapper:hover{
+    position: inherit;
+}
+
+.ant-radio-button-wrapper:first-child{
+    border-left-width: 1px;
+    position: inherit;
+    border-color: $primary-color;
+} 
+
+.ant-table-container table > thead > tr:first-child th:first-child{
+    border-top-left-radius: 8px;
+}
+.ant-table-container table > thead > tr:first-child th:last-child{
+    border-top-right-radius: 8px;
+
+}
+
+.ant-input-number-handler-up{
+    display: none;
+}
+.ant-input-number-handler-down{
+    display: none;
+}
+
+.ant-input-group > .ant-input:first-child, .ant-input-group-addon:first-child{
+    border:1px solid $primary-color;
+}
+
+.ant-input-group-addon .ant-select.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    border:1px solid $primary-color;
+    border-left:none ;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+.ant-input-group-addon{
+    border: none
+}

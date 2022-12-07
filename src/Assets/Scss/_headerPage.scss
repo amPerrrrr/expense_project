@@ -1,0 +1,116 @@
+
+.txt-header-title-page {
+    text-align: center;
+    font-size: 25px;
+    color: $primary-color  ;
+    font-weight: $font-weight-bold;
+    margin-top: 20px;
+  }
+  
+  .txt-header-subtitle-page{
+    text-align: center;
+    font-size: 20px;
+    color: $primary-color-text  ;
+    font-weight: $font-weight-normal;
+    margin-top: -50px;
+    margin-left: 320px;
+  }
+
+  .i-icon-page{
+    width: 20px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+  
+  .txt-header-subtitle-page-req{
+    text-align: center;
+    font-size: 19px;
+    color: $primary-color-text  ;
+    font-weight: $font-weight-normal;
+    margin-top: -50px;
+    margin-left: 440px; 
+  }
+  
+  .txt-header-subtitle-page-proj{
+    text-align: center;
+    font-size: 20px;
+    color: $primary-color-text  ;
+    font-weight: $font-weight-normal;
+    margin-top: -50px;
+    margin-left: 335px;
+  }
+
+  .icon-header-page{
+    margin-right: 15px;
+    margin-top: 15px;
+    
+  }
+
+  .without-icon{
+    margin-top: 35px;
+  }
+
+  .btn-back{
+    margin-left: 50px;
+  }
+
+  @media only screen and (max-width: 1399px){
+    .txt-header-subtitle-page-req{
+      font-size: 16px;
+      margin-left: 370px;
+    }
+
+  }
+  
+  @media only screen and (max-width: 1199px){
+    .i-icon-page{
+      width: 16px;
+    }
+
+    .txt-header-title-page {
+        font-size: 20px;
+      }
+      
+      .txt-header-subtitle-page{
+        font-size: 16px;
+        margin-left: 270px;
+      }
+
+      .txt-header-subtitle-page-req{
+        font-size: 12px;
+        margin-left: 290px;
+      }
+
+      .txt-header-subtitle-page-proj{
+        font-size: 16px;
+        margin-left: 280px;
+      }
+    
+  }
+  @media only screen  and (max-width: 991px){     
+      .txt-header-subtitle-page{
+        display : none;
+      }
+
+      .txt-header-subtitle-page-req{
+        display : none;
+      }
+
+      .txt-header-subtitle-page-proj{
+        display : none;
+      }
+
+      .icon-header-page{
+        margin-right: 15px;
+        margin-top: 15px;
+      }
+
+  }
+  @media only screen and (max-width : 320px) {
+    .icon-header-page{
+        width: 40px;
+    }
+    .txt-header-title-page {
+        font-size: 18px;
+      }
+  }

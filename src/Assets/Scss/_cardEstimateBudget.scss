@@ -1,0 +1,103 @@
+$color-border-card-estimate-budget: #dddddd;
+$color-estimate-card-estimate-budget: #a0a0a0;
+$color-dot-usage-color: #e38ce6;
+
+@mixin defaultEstimateSCSS() {
+  color: $color-estimate-card-estimate-budget;
+  font-weight: $font-weight-bold;
+  // margin-top: 20px;
+}
+
+.div-border-card-estimate-budget {
+  border-radius: 7px;
+  border: 1px solid $color-border-card-estimate-budget;
+  margin-bottom: 10px;
+}
+
+.txt-total-card-estimate-budget {
+  text-align: center;
+  color: $primary-color;
+  font-size: 20px;
+  font-weight: $font-weight-bold;
+  margin: 20px auto 20px auto;
+}
+
+.txt-type-icon-card-estimate-budget {
+  text-align: center;
+  font-size: 15px;
+  font-weight: $font-weight-bold;
+  color: $secondary-text-color;
+}
+
+.img-icon-card-estimate-budget {
+  height: 32px;
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+.div-icon-card-estimate-budget {
+  border-right: 2px solid $color-border-card-estimate-budget;
+}
+
+.dot-estimate-card-estimate-budget {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: $color-estimate-card-estimate-budget;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.dot-usage-card-estimate-budget {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: $color-dot-usage-color;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.color-usage {
+  color: $color-dot-usage-color !important;
+}
+
+.txt-header-estimate-card-estimate-budget {
+  @include defaultEstimateSCSS();
+}
+
+.txt-value-estimate-card-estimate-budget {
+  @include defaultEstimateSCSS();
+}
+
+.txt-value-estimate-card-estimate-budget {
+  float: right;
+  margin-right: 20px;
+}
+
+.div-margin-top-responsive-card-estimate-budget {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 300px) {
+  .dot-estimate-card-estimate-budget {
+    display: none;
+  }
+
+  .dot-usage-card-estimate-budget {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .div-icon-card-estimate-budget {
+    border-right: none;
+  }
+
+  .div-header-status-card-estimate-budget {
+    padding-left: 20px;
+  }
+
+  .div-margin-top-responsive-card-estimate-budget {
+    margin-top: 0px;
+  }
+}

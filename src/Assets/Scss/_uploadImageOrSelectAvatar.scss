@@ -1,0 +1,57 @@
+.txt-title-select-avatar {
+  text-align: center;
+  font-size: 20px;
+  font-weight: $font-weight-bold;
+  color: $primary-color-txt-header-input;
+}
+
+.div-border-all-select {
+  display: block;
+  height: 150px;
+  overflow: auto;
+}
+
+.div-select-avatar {
+  text-align: center;
+  justify-content: center;
+}
+
+.div-select-color-one {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.div-select-icon-one {
+  border: 1px solid $primary-color-border;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.div-select-icon-one:hover {
+  border: 1px solid $color-scrollbar;
+  color: $color-white;
+  background-color: $color-scrollbar;
+}
+
+.txt-select-another-color-title {
+  color: $primary-color;
+  -webkit-text-decoration-line: underline; 
+  text-decoration-line: underline; 
+  font-size: 18px;
+}
+
+.div-upload-image-user {
+  border: 1px solid $primary-color;
+  border-radius: 7px;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  height: 120px;
+  width: 150px;
+}
+
+.ant-avatar {
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  border: 3px solid #ffffff;
+}
